@@ -1,0 +1,41 @@
+{
+  "name": "%NAME%",
+  "version": "0.0.1",
+  "description": "%DESCRIPTION%",
+  "license": "MIT",
+  "repository": "VovanR/%NAME%",
+  "author": {
+    "name": "Vladimir Rodkin",
+    "email": "mail@vovanr.com",
+    "url": "https://github.com/VovanR"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack -p",
+    "start": "webpack --watch",
+    "test": "eslint index.jsx",
+    "precommit": "npm test",
+    "release-patch": "mversion patch",
+    "release-minor": "mversion minor",
+    "release-major": "mversion major",
+    "deploy": "npm run build && gh-pages -d example"
+  },
+  "keywords": [
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "conventional-changelog-cli": "^1.3.4",
+    "cross-env": "^5.1.3",
+    "cz-conventional-changelog": "^2.0.0",
+    "gh-pages": "^1.1.0",
+    "husky": "^0.14.3",
+    "mversion": "^1.10.1"
+  },
+  "peerDependencies": {
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
