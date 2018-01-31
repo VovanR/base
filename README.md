@@ -13,7 +13,7 @@ Demo: [vovanr.github.io/%NAME%][demo]
 
 ## Install
 
-```
+```shell
 npm install --save %NAME%
 ```
 
@@ -21,9 +21,9 @@ npm install --save %NAME%
 ## License
 MIT © [Vladimir Rodkin](https://github.com/VovanR)
 
-[demo]: http://vovanr.github.io/%NAME%
+[demo]: https://vovanr.github.io/%NAME%
 
-[commitizen-url]: http://commitizen.github.io/cz-cli/
+[commitizen-url]: https://commitizen.github.io/cz-cli/
 [commitizen-image]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square
 
 [npm-url]: https://npmjs.org/package/%NAME%
