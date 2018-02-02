@@ -4,11 +4,7 @@
   "description": "%DESCRIPTION%",
   "license": "MIT",
   "repository": "VovanR/%NAME%",
-  "author": {
-    "name": "Vladimir Rodkin",
-    "email": "mail@vovanr.com",
-    "url": "https://github.com/VovanR"
-  },
+  "author": "Vladimir Rodkin <mail@vovanr.com> (https://github.com/VovanR)",
   "engines": {
     "node": ">=4"
   },
@@ -54,8 +50,5 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "xo": {
-    "space": true
   }
 }

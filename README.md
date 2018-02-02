@@ -46,7 +46,7 @@ MIT © [Vladimir Rodkin](https://github.com/VovanR)
 [travis-image]: https://img.shields.io/travis/VovanR/%NAME%.svg?style=flat-square
 
 [coveralls-url]: https://coveralls.io/r/VovanR/%NAME%
-[coveralls-image]: http://img.shields.io/coveralls/VovanR/%NAME%.svg?style=flat-square
+[coveralls-image]: https://img.shields.io/coveralls/VovanR/%NAME%.svg?style=flat-square
 
 [depstat-url]: https://david-dm.org/VovanR/%NAME%
 [depstat-image]: https://david-dm.org/VovanR/%NAME%.svg?style=flat-square
