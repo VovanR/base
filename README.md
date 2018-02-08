@@ -13,6 +13,8 @@
 
 Demo: [vovanr.github.io/%NAME%][demo]
 
+![](preview.png)
+
 ## Install
 
 ```shell
@@ -20,6 +22,7 @@ npm install --save %NAME%
 ```
 
 ## Usage
+See: [example](example/app.jsx)
 
 ```js
 var foo = require('%NAME%');
