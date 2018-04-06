@@ -1,5 +1,8 @@
 # %NAME%
 
+<img align="right" width="120" height="120"
+     src="./logo.svg" alt="%NAME% logo">
+
 [![Commitizen friendly][commitizen-image]][commitizen-url]
 [![XO code style][codestyle-image]][codestyle-url]
 
