@@ -34,6 +34,25 @@ foo()
 //=> Foo
 ```
 
+## API
+
+### foo(bar, [options])
+
+#### bar
+
+Type: `string`
+
+Bar to foo
+
+#### options
+
+Type: `Object`
+
+##### baz
+
+Type: `string`<br>
+Default: `-`
+
 ## License
 MIT © [Vladimir Rodkin](https://github.com/VovanR)
 
