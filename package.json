@@ -3,18 +3,17 @@
   "version": "0.0.1",
   "description": "%DESCRIPTION%",
   "license": "MIT",
+  "private": true,
   "repository": "VovanR/%NAME%",
   "author": "Vladimir Rodkin <mail@vovanr.com> (https://github.com/VovanR)",
   "engines": {
-    "node": ">=4"
+    "node": ">=6"
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack -p",
     "start": "webpack --watch",
     "test": "xo --no-esnext && nyc ava",
     "tdd": "ava -w",
-    "prepush": "npm test",
-    "precommit": "npm test",
     "release-patch": "mversion patch",
     "release-minor": "mversion minor",
     "release-major": "mversion major",
@@ -24,24 +23,21 @@
     "index.js"
   ],
   "main": "index.js",
-  "keywords": [
-  ],
-  "dependencies": {
-  },
+  "keywords": [],
+  "dependencies": {},
   "devDependencies": {
-    "ava": "^0.24.0",
-    "conventional-changelog-cli": "^1.3.5",
-    "coveralls": "^3.0.0",
-    "cross-env": "^5.1.3",
+    "ava": "^1.0.1",
+    "conventional-changelog-cli": "^2.0.11",
+    "coveralls": "^3.0.2",
+    "cross-env": "^5.2.0",
     "cz-conventional-changelog": "^2.1.0",
-    "gh-pages": "^1.1.0",
-    "husky": "^0.14.3",
-    "mversion": "^1.10.1",
-    "nyc": "^11.4.1",
-    "xo": "^0.18.2"
+    "gh-pages": "^2.0.1",
+    "husky": "^1.2.1",
+    "mversion": "^1.12.0",
+    "nyc": "^13.1.0",
+    "xo": "^0.23.0"
   },
-  "peerDependencies": {
-  },
+  "peerDependencies": {},
   "bugs": {
     "url": "https://github.com/VovanR/%NAME%/issues"
   },

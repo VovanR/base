@@ -1,7 +1,7 @@
 /**
  * Demo function
  *
- * @return {string}
+ * @return {string} 'Foo'
  *
  * @example
  * foo()
