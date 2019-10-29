@@ -8,7 +8,7 @@
  * //=> 'Foo'
  */
 function foo() {
-	return 'Foo';
+  return 'Foo';
 }
 
 module.exports = foo;

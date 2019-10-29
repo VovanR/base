@@ -47,6 +47,9 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
+  "xo": {
+    "space": true
+  },
   "husky": {
     "hooks": {
       "pre-push": "npm test"
