@@ -1,5 +1,5 @@
-import test from 'ava';
-import fn from '.';
+const test = require('ava');
+const fn = require('.');
 
 test('is function', t => {
   t.is(typeof fn, 'function');
