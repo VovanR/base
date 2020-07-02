@@ -17,7 +17,8 @@
     "release-patch": "mversion patch",
     "release-minor": "mversion minor",
     "release-major": "mversion major",
-    "deploy": "npm run build && gh-pages -d example"
+    "deploy": "npm run build && gh-pages -d example",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "files": [
     "index.js"
