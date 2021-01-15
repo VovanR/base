@@ -5,6 +5,8 @@
   "license": "MIT",
   "private": true,
   "repository": "VovanR/name-name-name",
+  "homepage": "https://vovanr.github.io/name-name-name",
+  "bugs": "https://github.com/VovanR/name-name-name/issues",
   "author": "Vladimir Rodkin <mail@vovanr.com> (https://github.com/VovanR)",
   "engines": {
     "node": ">=10"
@@ -39,10 +41,6 @@
     "xo": "^0.32.0"
   },
   "peerDependencies": {},
-  "bugs": {
-    "url": "https://github.com/VovanR/name-name-name/issues"
-  },
-  "homepage": "https://vovanr.github.io/name-name-name",
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
